@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.header {
+  background-color: #171f31fd;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+}
+
+.footer{
+  background-color: #171f31fd;
+  position: fixed; 
+  width:100%;
+  bottom: 0;
+  }
+
+  .stock-card{
+    background-color: #737c91fd;
+    border-radius: 25px;
+  }
+
+  .card-title{
+    background-color: darkorange;
+    border-radius: 25px;
+  }
+  b{
+    color: black;
+  }
+
+  p.card-text{
+    margin-top: 0px;
+  }
+
+  .stock-data{
+    overflow-y: scroll;
+    height: 50px;
+  }
